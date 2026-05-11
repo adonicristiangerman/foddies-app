@@ -1,34 +1,19 @@
 /*!*************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Montserrat:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 body {
   margin: 0;
   background: radial-gradient(#282c34, #282c34);
-}
-
-.header-background {
-  position: absolute;
-  width: 100%;
-  height: 320px;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-svg {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 .not-found,
@@ -49,7 +34,7 @@ svg {
   -webkit-text-fill-color: transparent;
   background-size: cover;
   background-position: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .not-found p,
@@ -58,10 +43,11 @@ svg {
   font-weight: 500;
   color: #ddd8d8;
 }
-/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/components/main-header.module.css ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************/
-.main-header_header__Eir_t {
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/components/main-header/main-header.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.main-header_header__NcZu_ {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,12 +55,12 @@ svg {
 }
 
 @media (min-width: 768px) {
-  .main-header_header__Eir_t {
+  .main-header_header__NcZu_ {
     padding: 2rem 10%;
   }
 }
 
-.main-header_nav__gK9Us ul {
+.main-header_nav__vsGWg ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -84,7 +70,7 @@ svg {
   font-size: 1.25rem;
 }
 
-.main-header_nav__gK9Us a {
+.main-header_nav__vsGWg a {
   text-decoration: none;
   color: #ddd6cb;
   font-weight: bold;
@@ -92,8 +78,8 @@ svg {
   border-radius: 0.5rem;
 }
 
-.main-header_nav__gK9Us a:hover,
-.main-header_nav__gK9Us a:active {
+.main-header_nav__vsGWg a:hover,
+.main-header_nav__vsGWg a:active {
   background: linear-gradient(90deg, #ff8a05, #f9b331);
   background-clip: text;
   -webkit-background-clip: text;
@@ -101,14 +87,14 @@ svg {
   text-shadow: 0 0 18px rgba(248, 190, 42, 0.8);
 }
 
-.main-header_active__AgifX {
+.main-header_active__jZA_w {
   background: linear-gradient(90deg, #ff8a05, #f9b331);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.main-header_logo__h6Vuv {
+.main-header_logo__CyWPR {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,10 +108,28 @@ svg {
   font-size: 1.5rem;
 }
 
-.main-header_logo__h6Vuv img {
+.main-header_logo__CyWPR img {
   width: 5rem;
   height: 5rem;
   object-fit: contain;
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/components/main-header/main-header-background.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+.main-header-background_header-background__AR0iV {
+  position: absolute;
+  width: 100%;
+  height: 320px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.main-header-background_header-background__AR0iV svg {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
