@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
 
 import logoImage from "@/assets/logo.png";
 import classes from "./main-header.module.css";
