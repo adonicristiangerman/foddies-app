@@ -1,3 +1,5 @@
+"use client";
+
 import MealItem from "./meal-item";
 import classes from "./meals-grid.module.css";
 
